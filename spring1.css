@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* main{
+  background: no-repeat  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd4dq54tAIFvNw-HTuve4Z9eRArXHkeQr6vQ&usqp=CAU);
+    background-size: cover;
+} */
+ul {
+    list-style: none;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly
+  }
+  ul li{
+    background-color: rgb(11, 235, 186);
+    padding:1rem;
+    border-radius: 5px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  section{
+    border:dashed;
+    border-radius: 5px;
+    margin: 0.25rem;
+  }
+  section h1{
+    color: crimson;
+    padding: 0.5rem;
+  }
+  section p{
+    padding: 0.5rem;
+    word-spacing: 0.1rem;
+  }
+
+article{
+  display: flex;
+  /* flex-direction: row; */
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+ 
+}
+
+.card1{
+  width:13rem;
+    /* height:14rem ; */
+    /* border: solid; */
+    background-color: rgb(228, 220, 220);
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+    
+ 
+
+
+.card2{
+  width:13rem;
+    /* height:14rem ; */
+    /* border: solid; */
+    background-color: rgb(228, 220, 220);
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+
+.card3{
+  width:13rem;
+    /* height:14rem ; */
+    /* border: solid; */
+    background-color: rgb(228, 220, 220);
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+
+
+
+
+figure{
+  border: solid grey;
+  width: 12rem;
+  border-radius: 1rem;
+}
+
+    
+  
+img{
+  width: 9rem;
+  border-radius: 1rem;
+  margin-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+figcaption{
+  color: rgb(8, 8, 8);
+  margin-left: 2.85rem;
+  
+}
+
+button {
+  border-top:1rem ;
+  width:4rem ;
+  height:1.5rem ;
+  margin-top:0.5rem ;
+  border-radius:0.5rem ;
+  background-color: hsl(248, 22%, 52%);
+}  
+
+
+@media (min-width: 320px) and (max-width: 430px) {
+  ul{
+    display: flex;
+    flex-direction:column;
+    align-items: stretch;
+    margin: 1rem 0;
+  }
+ 
+  article{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+ 
+    margin: 1rem;
+    
+  }
+  seaction p{
+    font-size: 2ch;
+    
+  }
+}
+
+@media (orientation: landscape) {
+  body {
+    background: #fafafa;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  body {
+    background: #e5a8d8;
+  }
+}
+  
